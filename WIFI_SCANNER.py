@@ -7,7 +7,7 @@ import time
 import matplotlib.pyplot as plt
 from collections import defaultdict
 
-# Globals
+
 networks = {}  # bssid: {'ssid':, 'crypto':, 'signals':[], 'timestamps':[], 'counts':0}
 alerts = []
 lock = Lock()
