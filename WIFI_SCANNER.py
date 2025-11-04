@@ -11,7 +11,7 @@ from collections import defaultdict
 networks = {}  # bssid: {'ssid':, 'crypto':, 'signals':[], 'timestamps':[], 'counts':0}
 alerts = []
 lock = Lock()
-
+    
 wifi = pywifi.PyWiFi()
 iface = wifi.interfaces()[0]  # first Wi-Fi interface
 
