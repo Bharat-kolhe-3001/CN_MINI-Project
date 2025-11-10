@@ -5,7 +5,8 @@ from tkinter import ttk
 from threading import Thread, Lock
 import time
 import matplotlib.pyplot as plt
-from collections import defaultdict
+from collections import defaultdict   
+
 
 
 networks = {}  # bssid: {'ssid':, 'crypto':, 'signals':[], 'timestamps':[], 'counts':0}
