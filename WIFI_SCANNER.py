@@ -18,7 +18,7 @@ iface = wifi.interfaces()[0]  # first Wi-Fi interface
 
 # Default scan interval (seconds)
 scan_interval = 3
-
+//function for scan network 
 def scan_networks():
     global scan_interval
     while True:
